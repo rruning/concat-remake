@@ -44,8 +44,7 @@ pub fn mirror(file: &str) -> String {
 /// The Audio page's Concat sounds: the list of them, read the first time
 /// the shelf is asked for and never at startup. The schema, and where the
 /// files go, is `docs/AUDIO_LIBRARY.md`.
-pub const SOUNDS_MANIFEST: &str =
-    "https://media.lesive.xyz/sonidos.json";
+pub const SOUNDS_MANIFEST: &str = "https://media.lesive.xyz/sonidos.json";
 
 /// The repository the sounds live in.
 pub const SOUNDS_REPO: &str = "concatapp/assets";

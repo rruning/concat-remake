@@ -490,9 +490,8 @@ fn sparkle() -> Vec<f32> {
             let at = ats[b];
             if t >= at {
                 let dt = t - at;
-                rung += (2.0 * std::f32::consts::PI * bells[b] * dt).sin()
-                    * (-dt / 0.3).exp()
-                    * 0.25;
+                rung +=
+                    (2.0 * std::f32::consts::PI * bells[b] * dt).sin() * (-dt / 0.3).exp() * 0.25;
             }
             b += 1;
         }

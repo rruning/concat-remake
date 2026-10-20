@@ -371,12 +371,23 @@ impl Catalogue {
         {
             let mut sounds = Vec::new();
             for entry in arr {
-                let nombre = entry.get("nombre").and_then(|v| v.as_str()).unwrap_or("").to_owned();
-                let link = entry.get("link").and_then(|v| v.as_str()).unwrap_or("").to_owned();
+                let nombre = entry
+                    .get("nombre")
+                    .and_then(|v| v.as_str())
+                    .unwrap_or("")
+                    .to_owned();
+                let link = entry
+                    .get("link")
+                    .and_then(|v| v.as_str())
+                    .unwrap_or("")
+                    .to_owned();
                 if nombre.is_empty() || link.is_empty() {
                     continue;
                 }
-                let id = nombre.trim_end_matches(".mp3").to_ascii_lowercase().replace(' ', "-");
+                let id = nombre
+                    .trim_end_matches(".mp3")
+                    .to_ascii_lowercase()
+                    .replace(' ', "-");
                 sounds.push(Listed {
                     id,
                     name: nombre.clone(),
