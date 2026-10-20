@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.checker-flip"
+name = "Checker Flip"
+kind = "transition"
+category = "Basic"
+order = 210
+description = "Squares flip one by one in a checkerboard pattern."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "rectcrop"
+fallback = "cross-fade"

@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.pixelate-cut"
+name = "Pixelate Cut"
+kind = "transition"
+category = "Retro"
+order = 201
+description = "The picture breaks into big blocks, then rebuilds as the next shot."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "pixelize"
+fallback = "cross-fade"

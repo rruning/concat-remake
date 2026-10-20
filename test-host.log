@@ -1,0 +1,34 @@
+   Compiling bindgen v0.72.1
+   Compiling wgpu-core-deps-windows-linux-android v30.0.1
+   Compiling wgpu-core v30.0.1
+   Compiling wgpu v30.0.1
+   Compiling ffmpeg-sys-the-third v6.0.0+ffmpeg-9.0
+   Compiling concat-render v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-render)
+   Compiling ffmpeg-the-third v6.0.0+ffmpeg-9.0
+   Compiling concat-media v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-media)
+   Compiling concat-export v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-export)
+   Compiling concat-host v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-host)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 51.36s
+     Running unittests src\lib.rs (target\debug\deps\concat_host-b37aadf037f5f574.exe)
+
+running 5 tests
+test sfx::tests::an_unknown_id_is_refused ... ok
+test sfx::tests::the_envelope_of_a_sound_is_sixty_four_bars ... ok
+test sfx::tests::a_made_sound_is_a_whole_wav ... ok
+test sfx::tests::a_sound_is_deterministic ... ok
+test sfx::tests::every_sound_is_made_once ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 107 filtered out; finished in 0.06s
+
+     Running tests\export.rs (target\debug\deps\export-1144c11018747141.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 16 filtered out; finished in 0.00s
+
+     Running tests\stabilize.rs (target\debug\deps\stabilize-bfe1ab0393137d1a.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 1 filtered out; finished in 0.00s
+

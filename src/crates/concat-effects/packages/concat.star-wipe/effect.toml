@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.star-wipe"
+name = "Star Wipe"
+kind = "transition"
+category = "Stylised"
+order = 207
+description = "The next shot grows out of the middle in the shape of a star."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "radial"
+fallback = "cross-fade"

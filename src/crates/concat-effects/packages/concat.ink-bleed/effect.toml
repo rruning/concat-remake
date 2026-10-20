@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.ink-bleed"
+name = "Ink Bleed"
+kind = "transition"
+category = "Stylised"
+order = 203
+description = "The next shot spreads through the picture like ink soaking into paper."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "dissolve"
+fallback = "cross-fade"

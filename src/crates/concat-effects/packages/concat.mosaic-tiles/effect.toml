@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.mosaic-tiles"
+name = "Mosaic Tiles"
+kind = "transition"
+category = "Stylised"
+order = 213
+description = "Tiles pop in at random times, one by one, until the next shot covers the frame."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "rectcrop"
+fallback = "cross-fade"

@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.luma-wipe"
+name = "Luma Wipe"
+kind = "transition"
+category = "Glitch"
+order = 218
+description = "The brightest parts of the outgoing shot clear first, revealing the next one."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "dissolve"
+fallback = "cross-fade"

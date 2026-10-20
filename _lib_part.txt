@@ -1,0 +1,82 @@
+﻿                .map(|l| l.size),
+            Some(2)
+        );
+        let _ = std::fs::remove_dir_all(&dir);
+    }
+
+    #[test]
+    fn every_built_in_package_loads_and_its_fixtures_pass() {
+        let catalogue = Catalogue::builtin();
+        assert!(catalogue.packages().count() >= 28);
+        let failures: Vec<String> = catalogue
+            .packages()
+            .flat_map(|package| package.check_fixtures())
+            .collect();
+        assert!(failures.is_empty(), "\n{}", failures.join("\n"));
+    }
+
+    #[test]
+    fn every_ffmpeg_package_pins_its_default_and_every_slider_bound() {
+        // A package without fixtures is a package nobody has looked at.
+        let mut gaps = Vec::new();
+        for package in Catalogue::builtin().packages() {
+            if package.manifest.ffmpeg.is_none() {
+                continue;
+            }
+            let has = |at: At| {
+                package
+                    .fixtures
+                    .iter()
+                    .any(|case| case.at == at && case.params.is_empty())
+            };
+            if !has(At::Default) {
+                gaps.push(format!("{}: no default case", package.id()));
+            }
+            if !package.manifest.params.is_empty() {
+                if !has(At::Min) {
+                    gaps.push(format!("{}: no min case", package.id()));
+                }
+                if !has(At::Max) {
+                    gaps.push(format!("{}: no max case", package.id()));
+                }
+            }
+        }
+        assert!(gaps.is_empty(), "\n{}", gaps.join("\n"));
+    }
+
+    /// The same rule for a package drawn in light, whose pinned outputs
+    /// are colours rather than chains.
+    #[test]
+    fn every_scene_linear_package_probes_its_default_and_every_slider_bound() {
+        let mut gaps = Vec::new();
+        let mut linear = 0;
+        for package in Catalogue::builtin().packages() {
+            let drawn = package.shader().is_some() || package.transition().is_some();
+            if !package.manifest.scene_linear() || !drawn {
+                continue;
+            }
+            linear += 1;
+            let has = |at: At| {
+                package
+                    .probes
+                    .iter()
+                    .any(|probe| probe.at == at && probe.params.is_empty())
+            };
+            if !has(At::Default) {
+                gaps.push(format!("{}: no default probe", package.id()));
+            }
+            if !package.manifest.params.is_empty() {
+                if !has(At::Min) {
+                    gaps.push(format!("{}: no min probe", package.id()));
+                }
+                if !has(At::Max) {
+                    gaps.push(format!("{}: no max probe", package.id()));
+                }
+            }
+        }
+        assert!(linear >= 1, "no package is drawn in light yet");
+        assert!(gaps.is_empty(), "\n{}", gaps.join("\n"));
+    }
+
+    /// A compound knob's dotted keys reach its shader: a wheel's puck and a
+    /// curve's points go through `resolve` with the knobs, and keys the

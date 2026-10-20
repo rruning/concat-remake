@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.door-open"
+name = "Door Open"
+kind = "transition"
+category = "Cinematic"
+order = 214
+description = "Two doors swing apart from the centre to reveal the next shot."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "smoothleft"
+fallback = "cross-fade"

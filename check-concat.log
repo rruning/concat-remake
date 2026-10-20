@@ -1,0 +1,201 @@
+   Compiling bindgen v0.72.1
+    Checking wgpu-hal v30.0.1
+   Compiling i-slint-common v1.18.1
+    Checking schemars v1.2.3
+   Compiling ort-sys v2.0.0-rc.13
+   Compiling const-field-offset-macro v0.2.1
+   Compiling darling_core v0.20.11
+   Compiling moxcms v0.8.1
+    Checking png v0.17.16
+   Compiling snafu v0.8.9
+    Checking windows-core v0.54.0
+    Checking ort v2.0.0-rc.13
+    Checking resvg v0.48.1
+    Checking icu_decimal v2.3.0
+    Checking concat-project v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-project)
+   Compiling rayon-core v1.13.0
+   Compiling zstd-safe v7.2.4
+   Compiling cipher v0.4.4
+   Compiling lzma-sys v0.1.20
+    Checking icu_segmenter v2.3.0
+   Compiling num_enum_derive v0.7.6
+   Compiling lyon_path v1.0.19
+    Checking rustls-webpki v0.103.15
+    Checking block-buffer v0.10.4
+    Checking crypto-common v0.1.7
+   Compiling hmac v0.12.1
+    Checking webpki-roots v1.0.9
+    Checking derive_more v2.1.1
+   Compiling memoffset v0.9.1
+    Checking parley_data v0.11.1
+   Compiling glutin_egl_sys v0.7.1
+   Compiling vtable-macro v0.5.0
+   Compiling pin-project-internal v1.1.13
+    Checking wgpu-core-deps-windows-linux-android v30.0.1
+    Checking unicode-bidi-mirroring v0.4.0
+    Checking wgpu-core v30.0.1
+    Checking htmlparser v0.2.1
+    Checking yazi v0.2.1
+   Compiling unicode-linebreak v0.1.5
+    Checking unicode-ccc v0.4.0
+   Compiling zeno v0.3.3
+    Checking const-field-offset v0.2.1
+    Checking subtle v2.6.1
+    Checking pollster v0.4.0
+    Checking unicode-properties v0.1.4
+   Compiling zopfli v0.8.3
+   Compiling swash v0.2.10
+   Compiling rspolib v0.1.2
+    Checking rustybuzz v0.20.1
+   Compiling rowan v0.17.0
+    Checking wgpu v30.0.1
+    Checking rustls v0.23.45
+    Checking concat-render v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-render)
+    Checking concat-vision v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-vision)
+    Checking concat-effects v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects)
+   Compiling image v0.25.10
+   Compiling annotate-snippets v0.12.16
+   Compiling num_enum v0.7.6
+    Checking parley v0.11.1
+   Compiling webpki-roots v0.26.11
+   Compiling pbkdf2 v0.12.2
+    Checking vtable v0.5.0
+    Checking digest v0.10.7
+   Compiling lyon_extra v1.1.0
+   Compiling rayon v1.12.0
+   Compiling xz2 v0.1.7
+   Compiling aes v0.8.4
+   Compiling zstd v0.13.3
+    Checking windows v0.54.0
+   Compiling getrandom v0.3.4
+   Compiling sha1 v0.10.7
+    Checking lyon_algorithms v1.0.21
+   Compiling bzip2 v0.5.2
+    Checking fontdb v0.23.0
+   Compiling i-slint-core-macros v1.18.1
+    Checking pin-project v1.1.13
+    Checking crossbeam-epoch v0.9.20
+    Checking strum v0.28.0
+    Checking taffy v0.10.1
+    Checking clru v0.6.3
+    Checking chrono v0.4.45
+   Compiling cmake v0.1.58
+   Compiling pin-utils v0.1.0
+    Checking sys-locale v0.3.2
+    Checking cpufeatures v0.2.17
+   Compiling base64 v0.22.1
+    Checking slab v0.4.12
+    Checking dpi v0.1.2
+    Checking pin-weak v1.1.0
+    Checking dasp_sample v0.11.0
+   Compiling ureq v2.12.1
+   Compiling i-slint-compiler v1.18.1
+   Compiling zip v2.4.2
+    Checking sha2 v0.10.9
+   Compiling spin_on v0.1.1
+    Checking crossbeam-deque v0.8.7
+    Checking concat-text v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-text)
+   Compiling bzip2 v0.4.4
+    Checking accesskit_consumer v0.38.0
+   Compiling darling_macro v0.20.11
+    Checking aho-corasick v1.1.5
+    Checking cursor-icon v1.2.0
+    Checking either v1.18.0
+    Checking regex-syntax v0.8.11
+    Checking i-slint-core v1.18.1
+    Checking smol_str v0.2.2
+    Checking error-code v3.4.0
+    Checking clipboard-win v5.4.1
+    Checking regex-automata v0.4.18
+    Checking winit v0.30.13
+    Checking accesskit_windows v0.34.0
+   Compiling darling v0.20.11
+   Compiling derive_builder_core v0.20.2
+    Checking glutin v0.32.3
+    Checking cpal v0.16.0
+    Checking rand_core v0.9.5
+    Checking crossbeam-channel v0.5.16
+    Checking keyboard-types v0.7.0
+    Checking softbuffer v0.4.8
+    Checking windows-sys v0.59.0
+    Checking ppv-lite86 v0.2.21
+    Checking minimal-lexical v0.2.1
+    Checking scoped-tls-hkt v0.1.5
+    Checking glow v0.18.0
+    Checking bit-vec v0.8.0
+    Checking rand_chacha v0.9.0
+    Checking muda v0.19.3
+    Checking bit-set v0.8.0
+    Checking nom v7.1.3
+    Checking accesskit_winit v0.33.2
+    Checking itertools v0.14.0
+    Checking arboard v3.6.1
+   Compiling i-slint-backend-selector v1.18.1
+    Checking webbrowser v1.2.4
+    Checking castaway v0.2.4
+   Compiling monostate-impl v0.1.18
+    Checking imgref v1.12.3
+    Checking base64 v0.13.1
+    Checking ryu v1.0.23
+    Checking compact_str v0.9.1
+    Checking spm_precompiled v0.1.4
+    Checking macro_rules_attribute v0.2.3
+    Checking fancy-regex v0.17.0
+    Checking ahash v0.8.12
+    Checking rayon-cond v0.4.0
+    Checking esaxx-rs v0.1.10
+    Checking monostate v0.1.18
+    Checking i-slint-renderer-software v1.18.1
+    Checking rand v0.9.5
+    Checking regex v1.13.1
+   Compiling winresource v0.1.31
+    Checking dary_heap v0.3.9
+    Checking unicode-normalization-alignments v0.1.12
+    Checking filetime v0.2.29
+    Checking daachorse v3.0.3
+    Checking unicode_categories v0.1.1
+    Checking libbz2-rs-sys v0.2.5
+    Checking option-ext v0.2.0
+    Checking dirs-sys v0.5.0
+    Checking tar v0.4.46
+    Checking normpath v1.5.1
+    Checking dirs v6.0.0
+    Checking rfd v0.17.2
+    Checking bzip2 v0.6.1
+    Checking opener v0.8.5
+   Compiling ffmpeg-sys-the-third v6.0.0+ffmpeg-9.0
+   Compiling skia-bindings v0.153.3
+   Compiling whisper-rs-sys v0.15.0 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\patches\whisper-rs-sys)
+   Compiling derive_builder_macro v0.20.2
+warning: variable does not need to be mutable
+   --> patches\whisper-rs-sys\build.rs:154:13
+    |
+154 |         let mut bindings = bindgen::Builder::default()
+    |             ----^^^^^^^^
+    |             |
+    |             help: remove this `mut`
+    |
+    = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by default
+
+   Compiling sherpa-onnx-sys v1.13.7
+warning: `whisper-rs-sys` (build script) generated 1 warning
+    Checking derive_builder v0.20.2
+    Checking tokenizers v0.23.2
+   Compiling slint-build v1.18.1
+    Checking sherpa-onnx v1.13.7
+   Compiling ffmpeg-the-third v6.0.0+ffmpeg-9.0
+    Checking concat-media v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-media)
+    Checking skia-safe v0.153.3
+    Checking concat-export v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-export)
+    Checking concat-host v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-host)
+    Checking concat-api v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-api)
+    Checking concat-server v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-server)
+    Checking i-slint-renderer-skia v1.18.1 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\patches\i-slint-renderer-skia)
+    Checking concat-mcp v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-mcp)
+    Checking i-slint-backend-winit v1.18.1
+   Compiling concat v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat)
+   Compiling slint-macros v1.18.1
+    Checking slint v1.18.1
+   Compiling whisper-rs v0.16.0
+    Checking concat-speech v0.2.8 (C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-speech)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 6m 16s

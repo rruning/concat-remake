@@ -1,0 +1,9 @@
+# A cut from one flat colour to the same flat colour is that colour:
+# at progress 0 every transition still shows the outgoing picture (or a
+# mix of two identical pictures), so the middle pixel is the input.
+[[probe]]
+name = "default, same colour both sides, at the cut's start"
+input = [0.5, 0.5, 0.5, 1]
+to = [0.5, 0.5, 0.5, 1]
+progress = 0.0
+expect = [0.5, 0.5, 0.5, 1]

@@ -1,0 +1,21 @@
+# The probes run at the timeline's start, where the strobe is in its lit
+# quarter of the beat: a flat grey let towards white by the amount - at
+# default 0.425 of the way from 0.5 to 1.0, at maximum 0.85 of it - and
+# unlit at the minimum, where the amount is nothing.
+
+[[probe]]
+name = "default, a flat grey, the strobe lit"
+input = [0.5, 0.5, 0.5, 1]
+expect = [0.7125, 0.7125, 0.7125, 1]
+
+[[probe]]
+name = "minimum, a flat grey, the strobe dark"
+at = "min"
+input = [0.5, 0.5, 0.5, 1]
+expect = [0.5, 0.5, 0.5, 1]
+
+[[probe]]
+name = "maximum, a flat grey, the strobe lit"
+at = "max"
+input = [0.5, 0.5, 0.5, 1]
+expect = [0.925, 0.925, 0.925, 1]

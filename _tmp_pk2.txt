@@ -1,0 +1,12 @@
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\packages\concat.dissolve\effect.toml
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\packages\concat.dissolve\effect.wgsl
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\packages\concat.dissolve\fixtures.toml
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\packages\concat.adjust\effect.toml
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\packages\concat.adjust\effect.wgsl
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\packages\concat.adjust\fixtures.toml
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\packages\concat.blur-dissolve\effect.toml
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\packages\concat.blur-dissolve\effect.wgsl
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\packages\concat.blur-dissolve\fixtures.toml
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\packages\concat.chroma-key\effect.toml
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\packages\concat.chroma-key\effect.wgsl
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\packages\concat.chroma-key\fixtures.toml

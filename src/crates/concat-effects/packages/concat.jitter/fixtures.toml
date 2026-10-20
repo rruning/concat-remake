@@ -1,0 +1,21 @@
+# A flat picture jittered is the same flat picture: the offset moves
+# where the sample is taken, and everywhere is the same colour. The
+# probes run at the timeline's start, where the clock stands at step
+# zero.
+
+[[probe]]
+name = "default, a flat grey"
+input = [0.5, 0.5, 0.5, 1]
+expect = [0.5, 0.5, 0.5, 1]
+
+[[probe]]
+name = "minimum, a flat grey"
+at = "min"
+input = [0.5, 0.5, 0.5, 1]
+expect = [0.5, 0.5, 0.5, 1]
+
+[[probe]]
+name = "maximum, a flat grey"
+at = "max"
+input = [0.5, 0.5, 0.5, 1]
+expect = [0.5, 0.5, 0.5, 1]

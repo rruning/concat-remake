@@ -1,0 +1,20 @@
+# A flat picture shaken is the same flat picture: the offset moves where
+# the sample is taken, and everywhere is the same colour. The probes run
+# at the timeline's start, where the walk stands still for one step.
+
+[[probe]]
+name = "default, a flat grey"
+input = [0.5, 0.5, 0.5, 1]
+expect = [0.5, 0.5, 0.5, 1]
+
+[[probe]]
+name = "minimum, a flat grey"
+at = "min"
+input = [0.5, 0.5, 0.5, 1]
+expect = [0.5, 0.5, 0.5, 1]
+
+[[probe]]
+name = "maximum, a flat grey"
+at = "max"
+input = [0.5, 0.5, 0.5, 1]
+expect = [0.5, 0.5, 0.5, 1]

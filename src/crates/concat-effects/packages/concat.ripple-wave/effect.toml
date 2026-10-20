@@ -1,0 +1,23 @@
+format = 2
+
+[effect]
+id = "concat.ripple-wave"
+name = "Ripple Wave"
+kind = "transition"
+category = "Distort"
+order = 205
+description = "Rings spread from the centre and bend the picture into the next shot."
+
+[[param]]
+key = "strength"
+label = "Strength"
+min = 0
+max = 100
+default = 60
+step = 1
+unit = "%"
+
+[transition]
+entry = "effect.wgsl"
+xfade = "distance"
+fallback = "cross-fade"

@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.bar-slide"
+name = "Bar Slide"
+kind = "transition"
+category = "Slide"
+order = 209
+description = "Vertical bars slide in alternating directions to bring in the next shot."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "slideup"
+fallback = "cross-fade"

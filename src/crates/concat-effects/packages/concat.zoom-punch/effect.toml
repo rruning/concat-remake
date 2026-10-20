@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.zoom-punch"
+name = "Zoom Punch"
+kind = "transition"
+category = "Zoom"
+order = 217
+description = "The outgoing shot punches in, then the next shot arrives at normal size."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "zoomin"
+fallback = "cross-fade"

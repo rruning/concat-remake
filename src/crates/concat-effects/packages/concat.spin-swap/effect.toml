@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.spin-swap"
+name = "Spin Swap"
+kind = "transition"
+category = "Spin"
+order = 219
+description = "The outgoing shot spins away and the next one spins in to take its place."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "fade"
+fallback = "cross-fade"

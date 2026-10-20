@@ -1,0 +1,21 @@
+# A flat picture bounced is the same flat picture wherever it is sampled
+# from, and the probes run at the timeline's start, where the beat of
+# the sine stands at zero and the zoom is one: the picture through
+# unchanged, at every bound.
+
+[[probe]]
+name = "default, a flat grey"
+input = [0.5, 0.5, 0.5, 1]
+expect = [0.5, 0.5, 0.5, 1]
+
+[[probe]]
+name = "minimum, a flat grey"
+at = "min"
+input = [0.5, 0.5, 0.5, 1]
+expect = [0.5, 0.5, 0.5, 1]
+
+[[probe]]
+name = "maximum, a flat grey"
+at = "max"
+input = [0.5, 0.5, 0.5, 1]
+expect = [0.5, 0.5, 0.5, 1]

@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.flash-cut"
+name = "Flash Cut"
+kind = "transition"
+category = "Glitch"
+order = 200
+description = "A white flash lands on the cut, and the next shot comes out of it."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "fadewhite"
+fallback = "cross-fade"

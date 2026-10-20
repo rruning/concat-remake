@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.drop-wipe"
+name = "Drop Wipe"
+kind = "transition"
+category = "Wipe"
+order = 216
+description = "A tall oval grows from the middle and the next shot fills it."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "circleopen"
+fallback = "cross-fade"

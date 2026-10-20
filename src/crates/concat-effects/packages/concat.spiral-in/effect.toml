@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.spiral-in"
+name = "Spiral In"
+kind = "transition"
+category = "Spin"
+order = 211
+description = "The next shot winds in along a spiral from the edges toward the middle."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "radial"
+fallback = "cross-fade"

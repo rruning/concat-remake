@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.bar-grow"
+name = "Bar Grow"
+kind = "transition"
+category = "Wipe"
+order = 215
+description = "Vertical bars grow out from their centres to show the next shot."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "wipeleft"
+fallback = "cross-fade"

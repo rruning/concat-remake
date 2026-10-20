@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.heart-reveal"
+name = "Heart Reveal"
+kind = "transition"
+category = "Everyday"
+order = 208
+description = "A heart opens over the picture and grows until the next shot fills it."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "circleopen"
+fallback = "cross-fade"

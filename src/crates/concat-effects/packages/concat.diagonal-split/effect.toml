@@ -1,0 +1,14 @@
+format = 2
+
+[effect]
+id = "concat.diagonal-split"
+name = "Diagonal Split"
+kind = "transition"
+category = "Wipe"
+order = 206
+description = "A diagonal line sweeps across and the next shot takes its place."
+
+[transition]
+entry = "effect.wgsl"
+xfade = "wipetl"
+fallback = "cross-fade"

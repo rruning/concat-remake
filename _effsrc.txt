@@ -1,0 +1,9 @@
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\src\catalogue.rs
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\src\cube.rs
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\src\expr.rs
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\src\filters.rs
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\src\lib.rs
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\src\looks.rs
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\src\manifest.rs
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\src\shader.rs
+C:\Users\user\Downloads\Concat-main-lote1\Concat-main\src\crates\concat-effects\src\template.rs
